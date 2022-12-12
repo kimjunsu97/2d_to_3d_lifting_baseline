@@ -1,0 +1,37 @@
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_setup.py:_flush():68] Configure stats pid to 2835157
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_setup.py:_flush():68] Loading settings from /home/gsc/.config/wandb/settings
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_setup.py:_flush():68] Loading settings from /home/gsc/pose_estimation_baseline/2d_to_3d_lifting_baseline/wandb/settings
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_init.py:_log_setup():476] Logging user logs to /home/gsc/pose_estimation_baseline/2d_to_3d_lifting_baseline/wandb/run-20221121_134718-1vomzkdp/logs/debug.log
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_init.py:_log_setup():477] Logging internal logs to /home/gsc/pose_estimation_baseline/2d_to_3d_lifting_baseline/wandb/run-20221121_134718-1vomzkdp/logs/debug-internal.log
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_init.py:init():516] calling init triggers
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-21 13:47:18,603 INFO    MainThread:2835157 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 73jg6pyk
+2022-11-21 13:47:18,604 INFO    MainThread:2835157 [wandb_run.py:_finish():1746] finishing run kimjunsu/pose_estimation_baseline/73jg6pyk
+2022-11-21 13:47:18,604 INFO    MainThread:2835157 [jupyter.py:save_history():448] not saving jupyter history
+2022-11-21 13:47:18,604 INFO    MainThread:2835157 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-21 13:47:18,604 INFO    MainThread:2835157 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-11-21 13:47:18,604 INFO    MainThread:2835157 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-11-21 13:47:18,604 INFO    MainThread:2835157 [wandb_run.py:_restore():1932] restore
+2022-11-21 13:47:18,604 INFO    MainThread:2835157 [wandb_run.py:_restore():1938] restore done
+2022-11-21 13:47:27,578 INFO    MainThread:2835157 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-21 13:47:27,578 INFO    MainThread:2835157 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-21 13:47:27,581 INFO    MainThread:2835157 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-21 13:47:27,588 INFO    MainThread:2835157 [wandb_init.py:init():569] starting backend
+2022-11-21 13:47:27,588 INFO    MainThread:2835157 [wandb_init.py:init():573] setting up manager
+2022-11-21 13:47:27,592 INFO    MainThread:2835157 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-21 13:47:27,593 INFO    MainThread:2835157 [wandb_init.py:init():580] backend started and connected
+2022-11-21 13:47:27,602 INFO    MainThread:2835157 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-11-21 13:47:27,602 INFO    MainThread:2835157 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-11-21 13:47:27,602 INFO    MainThread:2835157 [wandb_init.py:init():658] updated telemetry
+2022-11-21 13:47:27,654 INFO    MainThread:2835157 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-21 13:47:29,064 INFO    MainThread:2835157 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-21 13:47:29,120 INFO    MainThread:2835157 [wandb_run.py:_on_init():2004] got version response 
+2022-11-21 13:47:29,121 INFO    MainThread:2835157 [wandb_init.py:init():728] starting run threads in backend
+2022-11-21 13:47:33,592 INFO    MainThread:2835157 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-21 13:47:33,592 INFO    MainThread:2835157 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-21 13:47:33,592 INFO    MainThread:2835157 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-21 13:47:33,592 INFO    MainThread:2835157 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-21 13:47:33,592 INFO    MainThread:2835157 [wandb_init.py:init():765] run started, returning control to user process
